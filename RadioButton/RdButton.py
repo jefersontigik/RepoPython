@@ -3,10 +3,10 @@ from tkinter import ttk
 from tkinter.messagebox import *
 
 frame = tk.Tk()
-frame.geometry('350x300')
+frame.geometry('400x320')
 frame.resizable(False, False)
-frame.title('Exemplo radio button')
-frame.tk.call('wm', 'iconphoto', frame._w, tk.PhotoImage(file = 'python-logo-only.png'))
+frame.title('Exemplo Radio Button')
+frame.tk.call('wm', 'iconphoto', frame._w, tk.PhotoImage(file = '..\Images\python-logo-only.png'))
 
 
 def mostrarEscolha():
