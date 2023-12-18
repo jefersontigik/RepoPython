@@ -22,6 +22,5 @@ lbl1.place(x = 30, y = 30)
 lbl2 = tk.Label(window, text = 'Informe o substituto')
 lbl2.place(x = 30, y = 90)
 
-
 window.mainloop()
 
